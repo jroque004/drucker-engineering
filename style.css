@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: #333;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 1rem 2rem;
+    border-bottom: 2px solid #004AAC;
+}
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #004AAC;
+}
+.logo {
+    height: 60px;
+}
+.hero {
+    padding: 5rem 2rem;
+    background: #e9f1ff;
+    text-align: center;
+}
+.cta {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background: #004AAC;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+footer {
+    padding: 1rem 2rem;
+    background: #f1f1f1;
+    text-align: center;
+    font-size: 0.9rem;
+}
